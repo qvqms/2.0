@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "chrome_url_overrides": {
+      "newtab": "options.html"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "一款真真正正集才华与颜值于一身的浏览器新标签页扩展，让你每一次访问互联网都从美好开始。",
+   "icons": {
+      "128": "favicon.png",
+      "16": "favicon.png",
+      "48": "favicon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtPlTBXdjLvIJHgPAxm+o/WKmZT0Svw/GUpb+jCANMOQKVypUVtjjr5M7yd3svi7wmxPKBVx1yTLCyUfQwLacqLovNUPGQIoKJvTmPHv8ZVHcq/UepgwBHvBBe0SJtUuWzIRhKKc3CYCijvGwXqXuy9nfft12dYUMEg9PKVfVNobuuerVD8yz4j9YKwUxsxWNyrXTMocIvVWVisSITpILWGqk2uhNrxuzabMX2Lej1A7/yePwfym05UWbu5ktWoFmSJNbcLqokoiTON0R6+Gg0DvfabdDjYnizwSejejFZCgrq6qMptmfbZe+weNMbm9/MIYZGBw0eVj6iMo8G867JwIDAQAB",
+   "manifest_version": 2,
+   "name": "HiPC新标签页",
+   "permissions": [ "bookmarks", "history", "tabs", "notifications", "webRequest", "webRequestBlocking", "storage", "http://*/*", "https://*/*", "chrome://favicon/", "chrome://favicon/*" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.1.4"
+}
